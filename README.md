@@ -1,6 +1,5 @@
-deeply unserious project
-
-windows specific
+# !!! deeply unserious project !!!
+### [!] windows specific
 
 compile with
 ``` gcc fileinfo.c -o fileinfo.exe ```
