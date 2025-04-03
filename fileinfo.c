@@ -4,11 +4,7 @@
 #include <stdint.h>
 
 void print_file_permissions(DWORD attributes) {
-    if (attributes & FILE_ATTRIBUTE_DIRECTORY) {
-        printf("d");
-    } else {
-        printf("-");
-    }
+    printf(attributes & FILE_ATTRIBUTE_DIRECTORY ? "d" : "-");
     printf(attributes & FILE_ATTRIBUTE_READONLY ? "r" : "-");
     printf("w");
     printf("x");
