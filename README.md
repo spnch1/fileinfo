@@ -2,13 +2,19 @@
 ### [!] windows specific
 
 compile with
-``` gcc fileinfo.c -o fileinfo.exe ```
+```
+gcc fileinfo.c -o fileinfo.exe
+```
 
 run with
-``` .\fileinfo <filepath> ```
+```
+.\fileinfo <filepath>
+```
 
 run recursively (for directories and stuff) with
-``` .\fileinfo -r <filepath> ```
+```
+.\fileinfo -r <filepath>
+```
 
 idk why i created this
 
