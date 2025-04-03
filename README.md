@@ -1,1 +1,1 @@
-# fileinfo
+deeply unserious project
