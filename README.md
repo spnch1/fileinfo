@@ -11,3 +11,5 @@ run recursively (for directories and stuff) with
 ``` .\fileinfo -r <filepath> ```
 
 idk why i created this
+
+can probably turn this into something serious in the future, but not today
